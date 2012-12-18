@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <title>Concevis AG Prototype</title>
+    
+  	<!-- Theme kommt hier rein -->
+    
+	<script src="cordova-2.2.0.js" type="text/javascript" charset="utf-8"></script>
+    
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
+      <script type="text/javascript">
+               $('#sendalert').click(function()
+               {
+               alert("test");
+               });
+               
+               function test()
+               {
+                  alert("Test");
+               }
+      </script>    
+      
+</head>
+<body>
+
+  <input type="button" value="Send Alert" id="sendalert"></input>
+  <a href="#" onlick="test();" data-role="button">Send Alert call funtion</a>
+</body>
+</html>
